@@ -1,0 +1,15 @@
+body {
+  background-color: mistyrose;
+}
+h1 {
+  color: violet;
+}
+p {
+  color: red;
+}
+#p01 {
+  color: blue;
+}
+p.error {
+  color: green;
+}

@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Myself</title>
+<meta charset="utf-8">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #FFDDAA;
+  padding: 10px;
+  text-align: center;
+  font-size: 35px;
+  color: black;
+  border: solid;
+  border-color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #FFCCCC;
+  padding: 20px;
+  border: solid;
+  border-color: white;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #CCEEFF;
+  border: solid;
+  border-color: white;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #DDDDDD;
+  padding: 10px;
+  text-align: center;
+  color: black;
+  border: solid;
+  border-color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>自我介紹</h2>
+<p>你好，我是蘇亦筠！</p>
+
+<header>
+  <h2>關於我</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="Myself.html">自我介紹</a></li>
+      <li><a href="School.html">我的學校</a></li>
+      <li><a href="Photo.html">生活照</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>這是我的簡介!</h1>
+    <p>歡迎你來到我的網頁！</p>
+    <p>我是目前就讀台科大資管系的學生，在圖書館打工，很高興認識你!</p>
+  </article>
+</section>
+
+<footer>
+  <p>thanks</p>
+</footer>
+
+</body>
+</html>
